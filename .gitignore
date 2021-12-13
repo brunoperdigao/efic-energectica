@@ -1,0 +1,6 @@
+#Ignore data folder because it's too big
+data/
+
+# Ignore venv
+ambiente_virtual/
+
