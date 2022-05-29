@@ -9,12 +9,17 @@
     text-transform: initial;   /* sky.css says uppercase */
     letter-spacing: initial ;  /* sky.css says -0.08em */
     font-family: "Satoshi", sans-serif;
-    font-size: 90%;
+    font-size: 100%;
     margin-bottom: 50px;
 }
 
 .reveal p, .reveal ul {
-    font-size: 70%;
+    font-size: 90%;
+}
+
+
+body.notebook_app.rise-enabled {
+    background: white;
 }
 
 body.rise-enabled .reveal ol, body.rise-enabled .reveal dl, body.rise-enabled .reveal ul {
@@ -33,6 +38,9 @@ body.rise-enabled .reveal ol, body.rise-enabled .reveal dl, body.rise-enabled .r
 h1.plan, h2.plan, h3.plan {
     text-align: center;
     padding-bottom: 30px;
+}
+li {
+    margin-bottom: 1em;
 }
 
 /*ul.plan>li>span.plan-bold {
